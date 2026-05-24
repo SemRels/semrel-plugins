@@ -1,0 +1,4 @@
+#!/bin/sh
+# Test Plugin Binary - E2E Registry Test
+echo "Test Plugin v0.0.1"
+exit 0
