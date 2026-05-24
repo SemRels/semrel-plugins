@@ -1,3 +1,0 @@
-#!/bin/sh
-echo Provider Test Plugin
-exit 0
