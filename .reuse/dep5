@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: semrel-plugins
+Source: https://github.com/SemRels/semrel-plugins
+
+Files: *
+Copyright: 2026 The semrel Authors
+License: Apache-2.0
