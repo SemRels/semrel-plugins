@@ -30,6 +30,11 @@ jobs:
         run: |
           go install github.com/GoSemantics/semrel/cmd/semrel@latest
 
+      - name: Configure git identity
+        run: |
+          git config user.name  "semrel-bot"
+          git config user.email "semrel-bot@users.noreply.github.com"
+
       - name: Run semrel release
         id: semrel
         env:
