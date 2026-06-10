@@ -17,18 +17,18 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
 
       - name: Install semrel
         run: |
-          go install github.com/SemRels/semrel/cmd/semrel@latest
+          go install github.com/GoSemantics/semrel/cmd/semrel@latest
 
       - name: Run semrel release
         id: semrel
