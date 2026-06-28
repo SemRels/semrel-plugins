@@ -28,7 +28,7 @@ jobs:
 
       - name: Install semrel
         run: |
-          go install github.com/GoSemantics/semrel/cmd/semrel@latest
+          go install github.com/SemRels/semrel/cmd/semrel@latest
 
       - name: Configure git identity
         run: |
