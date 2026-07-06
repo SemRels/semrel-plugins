@@ -87,6 +87,7 @@ Updaters bump version strings in project files after the release version is dete
 | `updater-gradle` | [SemRels/updater-gradle](https://github.com/SemRels/updater-gradle) | `build.gradle` / `build.gradle.kts` version |
 | `updater-docker` | [SemRels/updater-docker](https://github.com/SemRels/updater-docker) | `Dockerfile` ARG/LABEL version |
 | `updater-helm` | [SemRels/updater-helm](https://github.com/SemRels/updater-helm) | Helm `Chart.yaml` version |
+| `updater-pubspec` | [SemRels/updater-pubspec](https://github.com/SemRels/updater-pubspec) | `pubspec.yaml` version (Dart/Flutter) |
 | `updater-terraform` | [SemRels/updater-terraform](https://github.com/SemRels/updater-terraform) | Terraform module version constraint |
 | `updater-nuget` | [SemRels/updater-nuget](https://github.com/SemRels/updater-nuget) | NuGet `.csproj` version |
 | `updater-homebrew` | [SemRels/updater-homebrew](https://github.com/SemRels/updater-homebrew) | Homebrew formula version |
