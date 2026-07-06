@@ -67,6 +67,7 @@ Hooks run before or after release for notifications and integrations.
 | Plugin | Repository | Description |
 |---|---|---|
 | `hook-slack` | [SemRels/hook-slack](https://github.com/SemRels/hook-slack) | Slack release notification |
+| `hook-discord` | [SemRels/hook-discord](https://github.com/SemRels/hook-discord) | Discord release notification |
 | `hook-teams` | [SemRels/hook-teams](https://github.com/SemRels/hook-teams) | Microsoft Teams notification |
 | `hook-email` | [SemRels/hook-email](https://github.com/SemRels/hook-email) | Email notification via SMTP |
 | `hook-matrix` | [SemRels/hook-matrix](https://github.com/SemRels/hook-matrix) | Matrix (Element) notification |
