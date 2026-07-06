@@ -83,6 +83,7 @@ Updaters bump version strings in project files after the release version is dete
 | `updater-npm` | [SemRels/updater-npm](https://github.com/SemRels/updater-npm) | `package.json` version field |
 | `updater-go` | [SemRels/updater-go](https://github.com/SemRels/updater-go) | Go module version constant |
 | `updater-cargo` | [SemRels/updater-cargo](https://github.com/SemRels/updater-cargo) | `Cargo.toml` version field |
+| `updater-composer` | [SemRels/updater-composer](https://github.com/SemRels/updater-composer) | `composer.json` version field (opt-in) |
 | `updater-python` | [SemRels/updater-python](https://github.com/SemRels/updater-python) | `pyproject.toml` / `setup.py` version |
 | `updater-maven` | [SemRels/updater-maven](https://github.com/SemRels/updater-maven) | `pom.xml` version element |
 | `updater-gradle` | [SemRels/updater-gradle](https://github.com/SemRels/updater-gradle) | `build.gradle` / `build.gradle.kts` version |
