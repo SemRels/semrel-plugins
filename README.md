@@ -45,6 +45,7 @@ Publishers push language- or registry-specific artifacts after semrel has prepar
 |---|---|---|
 | `publisher-crates` | [SemRels/publisher-crates](https://github.com/SemRels/publisher-crates) | Publish crate to crates.io |
 | `publisher-npm` | [SemRels/publisher-npm](https://github.com/SemRels/publisher-npm) | Publish package to the npm registry |
+| `publisher-pypi` | [SemRels/publisher-pypi](https://github.com/SemRels/publisher-pypi) | Publish package to PyPI |
 
 ### Conditions
 
@@ -52,6 +53,8 @@ Conditions gate the release pipeline — a non-zero exit aborts the release.
 
 | Plugin | Repository | Description |
 |---|---|---|
+| `condition-bitbucket-pipelines` | [SemRels/condition-bitbucket-pipelines](https://github.com/SemRels/condition-bitbucket-pipelines) | Ensures running in Bitbucket Pipelines on the correct branch |
+| `condition-circleci` | [SemRels/condition-circleci](https://github.com/SemRels/condition-circleci) | Ensures running in CircleCI on the correct branch |
 | `condition-github-actions` | [SemRels/condition-github-actions](https://github.com/SemRels/condition-github-actions) | Ensures running in GitHub Actions on the correct branch |
 | `condition-gitlab-ci` | [SemRels/condition-gitlab-ci](https://github.com/SemRels/condition-gitlab-ci) | Ensures running in GitLab CI on the correct branch |
 | `condition-gitea-actions` | [SemRels/condition-gitea-actions](https://github.com/SemRels/condition-gitea-actions) | Ensures running in Gitea Actions |
