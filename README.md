@@ -79,6 +79,23 @@ Updaters bump version strings in project files after the release version is dete
 | `updater-nuget` | [SemRels/updater-nuget](https://github.com/SemRels/updater-nuget) | NuGet `.csproj` version |
 | `updater-homebrew` | [SemRels/updater-homebrew](https://github.com/SemRels/updater-homebrew) | Homebrew formula version |
 
+### Publishers
+
+Publishers push built artifacts/packages to a package registry after the version bump.
+
+| Plugin | Repository | Description |
+|---|---|---|
+| `publisher-generic-http` | [SemRels/publisher-generic-http](https://github.com/SemRels/publisher-generic-http) | Upload artifacts to a generic HTTP(S) endpoint |
+| `publisher-oci` | [SemRels/publisher-oci](https://github.com/SemRels/publisher-oci) | Publish artifacts to OCI registries via `oras push` |
+
+### Packagers
+
+Packagers build distributable OS/language packages from release artifacts.
+
+| Plugin | Repository | Description |
+|---|---|---|
+| `packager-nfpm` | [SemRels/packager-nfpm](https://github.com/SemRels/packager-nfpm) | Build `.deb`/`.rpm`/`.apk` packages via nFPM |
+
 ---
 
 ## Plugin contract
