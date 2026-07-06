@@ -37,6 +37,14 @@ Providers publish the release to a hosting platform.
 | `provider-bitbucket` | [SemRels/provider-bitbucket](https://github.com/SemRels/provider-bitbucket) | Bitbucket Cloud |
 | `provider-git` | [SemRels/provider-git](https://github.com/SemRels/provider-git) | Plain git tag push |
 
+### Publishers
+
+Publishers push language- or registry-specific artifacts after semrel has prepared the release.
+
+| Plugin | Repository | Description |
+|---|---|---|
+| `publisher-crates` | [SemRels/publisher-crates](https://github.com/SemRels/publisher-crates) | Publish crate to crates.io |
+
 ### Conditions
 
 Conditions gate the release pipeline — a non-zero exit aborts the release.
