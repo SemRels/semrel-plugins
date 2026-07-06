@@ -44,6 +44,7 @@ Publishers push language- or registry-specific artifacts after semrel has prepar
 | Plugin | Repository | Description |
 |---|---|---|
 | `publisher-crates` | [SemRels/publisher-crates](https://github.com/SemRels/publisher-crates) | Publish crate to crates.io |
+| `publisher-npm` | [SemRels/publisher-npm](https://github.com/SemRels/publisher-npm) | Publish package to the npm registry |
 
 ### Conditions
 
