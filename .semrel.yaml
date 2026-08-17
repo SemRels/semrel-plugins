@@ -3,7 +3,6 @@
 # yaml-language-server: $schema=https://semrel.io/schema/v1.json
 
 tagPrefix: "v"
-commit_changelog: false
 
 branches:
   - name: main
