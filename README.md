@@ -100,6 +100,7 @@ Publishers push built artifacts/packages to a package registry after the version
 
 | Plugin | Repository | Description |
 |---|---|---|
+| `publisher-docker` | [SemRels/publisher-docker](https://github.com/SemRels/publisher-docker) | Push one existing local Docker image and report its immutable digest |
 | `publisher-generic-http` | [SemRels/publisher-generic-http](https://github.com/SemRels/publisher-generic-http) | Upload artifacts to a generic HTTP(S) endpoint |
 | `publisher-oci` | [SemRels/publisher-oci](https://github.com/SemRels/publisher-oci) | Publish artifacts to OCI registries via `oras push` |
 
