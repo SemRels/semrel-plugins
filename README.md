@@ -72,6 +72,7 @@ Hooks run before or after release for notifications and integrations.
 | `hook-email` | [SemRels/hook-email](https://github.com/SemRels/hook-email) | Email notification via SMTP |
 | `hook-matrix` | [SemRels/hook-matrix](https://github.com/SemRels/hook-matrix) | Matrix (Element) notification |
 | `hook-jira` | [SemRels/hook-jira](https://github.com/SemRels/hook-jira) | Jira version tracking |
+| `hook-exec` (`exec`) | [SemRels/hook-exec](https://github.com/SemRels/hook-exec) | Phase-aware shell command execution |
 | `hook-gitplugin` | [SemRels/hook-gitplugin](https://github.com/SemRels/hook-gitplugin) | Git-based plugin hooks |
 
 ### Updaters
@@ -93,6 +94,7 @@ Updaters bump version strings in project files after the release version is dete
 | `updater-terraform` | [SemRels/updater-terraform](https://github.com/SemRels/updater-terraform) | Terraform module version constraint |
 | `updater-nuget` | [SemRels/updater-nuget](https://github.com/SemRels/updater-nuget) | NuGet `.csproj` version |
 | `updater-homebrew` | [SemRels/updater-homebrew](https://github.com/SemRels/updater-homebrew) | Homebrew formula version |
+| `updater-replace` | [SemRels/updater-replace](https://github.com/SemRels/updater-replace) | Generic regex and literal replacements with assertions |
 
 ### Publishers
 
