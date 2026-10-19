@@ -1,6 +1,6 @@
 # Official plugin integration matrix
 
-This is the durable 43-plugin baseline for the first-party catalog. Names use
+This is the durable 45-plugin baseline for the first-party catalog. Names use
 the canonical migration format `@semrel/<type>-<name>`. Only canonical,
 direct-child repositories in the workspace count: `repos/` and `tmp-repos/`
 are duplicate checkouts and are deliberately excluded.
@@ -24,6 +24,7 @@ released as a versioned module.
 | `@semrel/generator-release-notes` | `generator-release-notes` | golden release-notes output; `TestRunWritesReleaseNotes`, invalid commit JSON | local |
 | `@semrel/hook-discord` | `hook-discord` | webhook payload, rate-limit retry, error and dry-run; `TestDiscordNotifierNotifyHandlesRateLimitRetry`, `TestRunDryRunPrintsPayloadJSON` | local |
 | `@semrel/hook-email` | `hook-email` | SMTP envelope/payload, validation and dry-run; `TestMailerNotify_Success`, `TestRun_DryRun`; real Mailpit delivery uses `integration` tag | local + Linux CI |
+| `@semrel/hook-exec` | `hook-exec` | phase selection, environment/cwd, stdout/stderr, timeout process-tree cancellation, failures and dry-run; `TestExecuteUsesEnvironmentWorkingDirectoryAndTemplates`, `TestExecuteTimesOut`, `TestRunDryRunSkipsExecution` | local |
 | `@semrel/hook-gitplugin` | `hook-gitplugin` | git tag/commit/push and dry-run; `TestCreateTagLightweight`, `TestRunDryRun` | local |
 | `@semrel/hook-jira` | `hook-jira` | API create/release errors and dry-run; `TestCreateVersionSuccess`, `TestRunDryRun` | local |
 | `@semrel/hook-matrix` | `hook-matrix` | webhook payload, retry/error/dry-run; `TestMatrixNotifierNotifyRetriesOnServerError`, `TestRunDryRun` | local |
@@ -53,6 +54,7 @@ released as a versioned module.
 | `@semrel/updater-nuget` | `updater-nuget` | project-file mutation/no-mutation; `TestRunUpdatesProjectFile`, `TestRunDryRun` | local |
 | `@semrel/updater-pubspec` | `updater-pubspec` | `pubspec.yaml` mutation/no-mutation; `TestRunUpdatesPubspec`, `TestRunDryRunPrintsComputedVersionLine` | local |
 | `@semrel/updater-python` | `updater-python` | Python metadata mutation/no-mutation; `TestRunUpdatesPyproject`, `TestRunDryRun` | local |
+| `@semrel/updater-replace` | `updater-replace` | recursive globs, ignore rules, regex/literal templates, assertions, atomic mutation/no-mutation, and dry-run; `TestApplySupportsGlobsRegexTemplatesAndIgnore`, `TestApplyEvaluatesAllAssertionsBeforeWriting`, `TestRunDryRunValidatesWithoutWriting` | local |
 | `@semrel/updater-terraform` | `updater-terraform` | Terraform mutation/no-mutation; `TestRunUpdatesTerraformFile`, `TestRunDryRun` | local |
 | `@semrel/condition-bitbucket-pipelines` | `condition-bitbucket-pipelines` | CI environment conformance; `TestCheck_HappyPath`, `TestRun_Failure` | local |
 | `@semrel/condition-circleci` | `condition-circleci` | CI environment conformance; `TestCheck_HappyPath`, `TestRun_Failure` | local |
