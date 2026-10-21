@@ -3,6 +3,7 @@
 
 [![Website](https://img.shields.io/badge/docs-www.semrel.io-6366f1)](https://www.semrel.io/plugins/)
 [![Plugin Registry](https://img.shields.io/badge/registry-registry.semrel.io-10b981)](https://registry.semrel.io)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community%20(Release%20Ping)-5865F2?logo=discord&logoColor=white)](https://discord.gg/w8zTm2r3jg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemRels/semrel/blob/main/LICENSE)
 
 Official first-party plugin catalog for [**semrel**](https://github.com/SemRels/semrel) — the zero-dependency, Go-native semantic release automation tool and open-source alternative to `semantic-release`, `GoReleaser`, and `release-please`.
